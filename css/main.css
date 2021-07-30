@@ -85,3 +85,8 @@ footer > * {
   margin: 2rem;
   border-radius: 25px;
 }
+
+profile-pic {
+  width: 50px;
+  filter: hue-rotate(90deg);
+}
