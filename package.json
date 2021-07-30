@@ -1,0 +1,19 @@
+{
+  "name": "space_pandas",
+  "version": "1.0.0",
+  "description": "website for the band space pandas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilyx13/space-pandas-band.git"
+  },
+  "author": "lilyx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilyx13/space-pandas-band/issues"
+  },
+  "homepage": "https://github.com/lilyx13/space-pandas-band#readme"
+}
