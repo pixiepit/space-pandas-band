@@ -12,9 +12,76 @@ body {
   background-color: ghostwhite;
 }
 
-.header {
+article {
+  margin: 2rem 0rem;
+  padding: 4rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+footer {
+  min-height: 8rem;
+  width: 100%;
+  background-color: var(--black);
+}
+footer > * {
+  color: ghostwhite;
+}
+
+#header {
   background-image: url("../assets/pexels-felix-mittermeier-4644812.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 40vh;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+.header-image {
+  opacity: 0.6;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem;
+  filter: hue-rotate(90deg);
+  box-shadow: 5px 10px var(--black);
+}
+
+.header-text {
+  line-height: 1.5;
+  background-color: hsla(0, 100%, 0, 0.4);
+  border-radius: 25px;
+}
+.header-text > * {
+  color: ghostwhite;
+}
+
+#about {
+  width: 90vw;
+}
+.card-1 {
+  background-color: var(--turqoise);
+  border: #100c08 1px solid;
+  border-radius: 25px;
+  margin: 1rem;
+  padding: 2rem;
+}
+.card-2 {
+  background-color: var(--pink);
+  border: #100c08 1px solid;
+  border-radius: 25px;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.concert-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container {
+  max-width: 20vw;
+  margin: 2rem;
+  border-radius: 25px;
 }
