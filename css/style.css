@@ -32320,6 +32320,11 @@ footer > * {
   border-radius: 25px;
 }
 
+profile-pic {
+  width: 50px;
+  filter: hue-rotate(160deg);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
