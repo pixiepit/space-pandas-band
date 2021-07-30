@@ -32232,6 +32232,23 @@ video {
   content: none;
 }
 
+:root {
+  --black: #100c08;
+  --turqoise: #08e8df;
+  --pink: #cc338b;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.header {
+  background-image: url("../assets/pexels-felix-mittermeier-4644812.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -188366,4 +188383,3 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-

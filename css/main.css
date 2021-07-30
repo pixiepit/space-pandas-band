@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --black: #100c08;
+  --turqoise: #08e8df;
+  --pink: #cc338b;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.header {
+  background-image: url("../assets/pexels-felix-mittermeier-4644812.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 40vh;
+}

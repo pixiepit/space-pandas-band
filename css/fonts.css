@@ -1,0 +1,29 @@
+/* Title Fonts */
+h1,
+h2,
+h3 {
+  font-family: "Audiowide", cursive;
+  color: var(--black);
+}
+
+h1 {
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+}
+h2 {
+  font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+}
+h3 {
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+}
+
+/* Body Fonts */
+a,
+li,
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  list-style-type: none;
+  text-decoration: none;
+
+  color: var(--black);
+}
