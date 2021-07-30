@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lilyx13/space-pandas-band/issues"
   },
-  "homepage": "https://github.com/lilyx13/space-pandas-band#readme"
+  "homepage": "https://github.com/lilyx13/space-pandas-band#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
 }
